@@ -82,6 +82,7 @@ function displayListOfProducts(response){
         var product = response[i];
         createProduct(i,product.displayImage,product.name,product.categoery,product.price,product.rating)
     }
+displayFilter()
 }
 
 function displayFilter(){
@@ -102,4 +103,3 @@ function displayFilter(){
     element.appendChild(divBox)
 }
 
-displayFilter()
