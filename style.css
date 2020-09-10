@@ -1,0 +1,53 @@
+.nav-bar-component {
+  display: flex;
+  align-items: center;
+}
+.nav-bar-component > * {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nav-bar-component > a {
+  color: black;
+  padding-left: 20px;
+}
+.nav-bar-component > img {
+  width: 20px;
+  height: 20px;
+}
+.nav-bar-component #hamburger {
+  height: 60px;
+  width: 60px;
+}
+@media (min-width: 1025px) {
+  .nav-bar-component #search {
+    margin-left: auto;
+  }
+}
+.nav-bar-component #searchBox {
+  margin-left: 12px;
+}
+.nav-bar-component #addToCart {
+  padding-left: 16px;
+}
+
+@media (min-width: 1025px) {
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+body > div {
+  display: flex;
+}
+
+#listOfProducts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#listOfProducts > div {
+  margin-right: 40px;
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
