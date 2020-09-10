@@ -5,7 +5,7 @@
     "rating" : "4",
     "description" : "Designed with handcraftes from the heart of jaipur",
     "colors" : "Blue,Black,Pink,Red",
-    "displayImage" : "assest/Coombes.PNG",
+    "displayImage" : "assest/Coombes.png",
     "images" : "images",
     "avaliablity" : "true"
 },
@@ -16,7 +16,7 @@
     "rating" : "4",
     "description" : "Designed with handcraftes from the heart of jaipur",
     "colors" : "Blue,Black,Pink,Red",
-    "displayImage" : "assest/Keeve.PNG",
+    "displayImage" : "assest/Keeve.png",
     "images" : "images",
     "avaliablity" : "true"
 },
@@ -27,7 +27,7 @@
     "rating" : "5",
     "description" : "Designed with handcraftes from the heart of jaipur",
     "colors" : "Blue,Black,Pink,Red",
-    "displayImage" : "assest/Nille.PNG",
+    "displayImage" : "assest/Nille.png",
     "images" : "images",
     "avaliablity" : "true"
 },
@@ -38,7 +38,7 @@
     "rating" : "4",
     "description" : "Designed with handcraftes from the heart of jaipur",
     "colors" : "Blue,Black,Pink,Red",
-    "displayImage" : "assest/Momo.PNG",
+    "displayImage" : "assest/Momo.png",
     "images" : "images",
     "avaliablity" : "true"
 },
@@ -49,7 +49,7 @@
     "rating" : "4",
     "description" : "Designed with handcraftes from the heart of jaipur",
     "colors" : "Blue,Black,Pink,Red",
-    "displayImage" : "assest/Penemille.PNG",
+    "displayImage" : "assest/Penemille.png",
     "images" : "images",
     "avaliablity" : "true"
 },
@@ -60,7 +60,7 @@
     "rating" : "4",
     "description" : "Designed with handcraftes from the heart of jaipur",
     "colors" : "Blue,Black,Pink,Red",
-    "displayImage" : "assest/Coombes.PNG",
+    "displayImage" : "assest/Kappu.png",
     "images" : "images",
     "avaliablity" : "true"
 }
