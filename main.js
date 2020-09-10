@@ -9,10 +9,10 @@ function starsAndAddToCart(x, element) {
         var imgTag = document.createElement("img");
 
         if (i < x) {
-            imgTag.src = "assest/star.PNG";
+            imgTag.src = "assest/star.png";
         }
         else {
-            imgTag.src = "assest/star-empty.PNG";
+            imgTag.src = "assest/star-empty.png";
         }
 
         imgTag.width = "14";
@@ -20,7 +20,7 @@ function starsAndAddToCart(x, element) {
         div.appendChild(imgTag);
     }
     var addToCart = document.createElement("img");
-    addToCart.src = "assest/addToCart.PNG";
+    addToCart.src = "assest/addToCart.png";
     addToCart.height = "30";
     addToCart.width = "30";
     addToCart.style.marginLeft = "auto";
@@ -94,7 +94,7 @@ function displayFilter(){
     divBox.style.paddingBottom = "10px"
 
     var imgArrow = document.createElement("img");
-    imgArrow.src = "assest/downArrow.PNG";
+    imgArrow.src = "assest/downArrow.png";
     imgArrow.width = "15";
     imgArrow.height = "18";
     imgArrow.style.marginLeft = "auto";
