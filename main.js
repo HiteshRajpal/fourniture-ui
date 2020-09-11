@@ -1,5 +1,4 @@
 console.log("welcome to javascript")
-
 function starsAndAddToCart(x, element) {
     var div = document.createElement("div")
     div.id = "ratingAndCart"
@@ -65,19 +64,26 @@ function createProduct(index,displayImage,name,catagoery,price,rating) {
 var response = httpGetAsync("http://localhost:3000/listOfProducts",displayListOfProducts)
 function httpGetAsync(theUrl, callback)
 {
+    var spinner = document.getElementById("spinner")
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.onreadystatechange = function() { 
-        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200){
+            spinner.style.display = "none"
             callback(xmlHttp.responseText);
+
+        }
+        else if(xmlHttp.readyState == 4 && xmlHttp.status != 200) {
+            spinner.style.display = "none"
+            callback(window.temporaryProducts)
+        }
     }
     xmlHttp.open("GET", theUrl, true); // true for asynchronous 
     xmlHttp.send(null);
 }
 
-console.log(response);
 
 function displayListOfProducts(response){
-    response = JSON.parse(response)
+    response = typeof response !== "object" ? JSON.parse(response) : response;
     for (var i = 0 ; i < response.length ; i++){
         var product = response[i];
         createProduct(i,product.displayImage,product.name,product.categoery,product.price,product.rating)
