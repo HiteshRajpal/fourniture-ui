@@ -1,3 +1,5 @@
+Check out th web page https://hiteshrajpal.github.io/fourniture-ui/ 
+
 Implementation done :
 Html of nav bar is done and CSS of nav bar and products.
 Page is supported in Chrome,IE and other browsers.
@@ -7,6 +9,5 @@ Implementaiton left :
 
 filer part,
 event click,
-spinner loader,
-error handling,
+Single page application
 
